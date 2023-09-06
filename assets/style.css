@@ -85,21 +85,33 @@ nav ul li a:hover{
     color: #C7CEDB;
     background-color: #7E9181;
 }
+.container {
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#7E9181;
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    }
+
+
 .myinfo {
     color:#C7CEDB;
     font-size: 25px;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-top: 45px;
     padding-left: 20px;
     padding-right: 20px;
 }
 .myinfo ul li {
     list-style-type: none;
-    display: inline-block;
-    padding: 25px 45px;
+    display:flex;
+    align-items: center;
+    padding: 10px 10px;
     background-color: #7E9181;
     border-radius: 25%;
+    text-align: center;
 }
 
 .myinfo ul li a {
@@ -111,4 +123,5 @@ nav ul li a:hover{
     background-color: #7E9181;
     padding: 20px;
     margin-top: 20px;
+    font-size: 20px;
 }
