@@ -81,6 +81,14 @@ nav ul li a:hover{
     float:left;
     width:75%;
 }
+.leftside h2 {
+    color:#C7CEDB;
+    background-color: #7E9181;
+}
+.leftside h5{
+    color: #C7CEDB;
+    background-color: #7E9181;
+}
 .contacts {
     color:#C7CEDB;
     font-size: 25px;
