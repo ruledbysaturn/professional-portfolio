@@ -1,9 +1,9 @@
 *{
-    padding: 0;
-    margin: 0;
-    font-family: Arial;
+    font-family: sans-serif;
     box-sizing: border-box;
+    background-color: #2E3532;
 }
+
 .topnav {
     height: 800px;
     width: 100%;
@@ -17,8 +17,8 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 nav ul li {
@@ -38,11 +38,45 @@ nav ul li a {
 }
 nav ul li a:hover{
     background-color: #94849B;
-    color:white;
+    color:#C7CEDB;
     font-weight: bold;
     text-transform: capitalize;
 }
+
+
 .header {
-    color:#2E3532;
-    font-size: 35px;
+    color:#C7CEDB;
+    font-size: 60px;
+}
+
+#about {
+    width 100%
+    padding: 100px 0px;
+}
+
+#about img {
+    height: auto;
+    width: 300px;
+    float:right;
+    padding-right: 0px;
+    padding-top: 20px;
+}
+
+.profileText {
+    color:#C7CEDB;
+    font-size: 25px;
+}
+.rightside {
+    float:right;
+    width:25%;
+    padding-right:25px;
+    padding-bottom: 150px;
+    padding-top: 20px;
+}
+.rightside h2{
+    text-transform: capitalize;
+}
+.leftside {
+    float:right;
+    width:75%;
 }
