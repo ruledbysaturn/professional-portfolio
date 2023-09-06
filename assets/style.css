@@ -125,3 +125,17 @@ nav ul li a:hover{
     margin-top: 20px;
     font-size: 20px;
 }
+
+@media screen and (max-width: 800px) {
+    nav,.topnav, main {
+        flex-direction: column;
+    }
+    .leftside, .rightside, .card {
+        width:100%;
+    }
+    img {
+        display: flex;
+        justify-content: center;
+    }
+}
+    
