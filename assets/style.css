@@ -59,12 +59,13 @@ nav ul li a:hover{
     width: 300px;
     float:right;
     padding-right: 0px;
-    padding-top: 20px;
+    padding-top: 55px;
 }
 
 .profileText {
     color:#C7CEDB;
     font-size: 25px;
+    background-color: #7E9181;
 }
 .rightside {
     float:right;
@@ -77,6 +78,33 @@ nav ul li a:hover{
     text-transform: capitalize;
 }
 .leftside {
-    float:right;
+    float:left;
     width:75%;
+}
+.contacts {
+    color:#C7CEDB;
+    font-size: 25px;
+    display:flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.contacts ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 25px 45px;
+    background-color: #7E9181;
+    border-radius: 25%;
+}
+
+.contacts ul li a {
+    text-decoration: none;
+    color: #C7CEDB;
+    background-color: #7E9181;
+}
+.card{
+    background-color: #7E9181;
+    padding: 20px;
+    margin-top: 20px;
 }
