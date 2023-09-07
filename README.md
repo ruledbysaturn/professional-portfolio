@@ -7,7 +7,7 @@
 ## Deployed page
 ![screenshot](assets/images/screenshot2.png)
 
-Link to deployed page.
+Link to <a href="https://ruledbysaturn.github.io/professional-portfolio/">deployed page.</a>
 
 
 ## Credits
