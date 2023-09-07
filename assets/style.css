@@ -22,8 +22,7 @@ nav{
 }
 nav ul li {
     display: inline-block;
-    padding: 25px; 45px;
-    list-style-type:none;
+    padding: 25px;
 }
 
 nav ul li a {
@@ -43,11 +42,6 @@ nav ul li a:hover{
 .header {
     color:#C7CEDB;
     font-size: 60px;
-}
-
-#about {
-    width 100%
-    padding: 100px 0px;
 }
 
 #about img {
