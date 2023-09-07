@@ -6,7 +6,7 @@
 .topnav {
     height: 800px;
     width: 100%;
-    background-image: url(../assets/sage.jpg);
+    background-image: url(sage.jpg);
     background-size:cover;
     background-position: center;
 }
